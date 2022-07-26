@@ -1,0 +1,69 @@
+body::after{
+    background: url("img/logo1.png");
+    background-size: cover;
+    height: 600px;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+body{
+    width: 100%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1vw;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.6);
+    width: 35%;
+    height: 25vw;
+    margin-top: 6vw;
+    margin-left: 50%;
+    text-align: left;
+}
+.title{
+    padding-top: 8vw;
+}
+.flexbox {
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    z-index: 1;
+}
+.cardItem > div {
+    width: 18vw;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    line-height: 3px;
+    z-index: 1;
+}
+img{
+    width: 250px;
+    margin: 0.5vw;
+    box-shadow: 4px 4px 8px #8c8c8c;
+}
+h3{
+    padding-left: 15px;
+}
+.footer{
+    height: 7vw;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 2vw;
+    background-color: rgba(210,180,171,0.6);
+}
